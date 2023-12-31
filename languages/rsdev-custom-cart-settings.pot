@@ -1,0 +1,55 @@
+# Copyright (C) 2023 Ronald Smit
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Cart Settings 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rsdev-custom-cart-settings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-03T16:15:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: rsdev-custom-cart-settings\n"
+
+#. Plugin Name of the plugin
+msgid "Custom Cart Settings"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://example.com/plugins/the-basics/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enables shop users to force orders in multiple of X (e.g. boxes containing 6 bottles of wine)."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ronald Smit"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.rsdev.nl/"
+msgstr ""
+
+#: admin.php:17
+msgid "Enable Plugin"
+msgstr ""
+
+#: admin.php:33
+msgid "Product Multiplier"
+msgstr ""
+
+#: admin.php:49
+msgid "Error Message Text"
+msgstr ""
+
+#: admin.php:65
+msgid "Excluded Categories"
+msgstr ""
+
+#: rsdev-custom-cart-settings.php:40
+msgid "Proceed to Checkout"
+msgstr ""
