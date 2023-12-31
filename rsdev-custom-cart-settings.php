@@ -4,7 +4,7 @@
  * Plugin Name:       Custom Cart Settings
  * Plugin URI:        https://example.com/plugins/the-basics/
  * Description:       Enables shop users to force orders in multiple of X (e.g. boxes containing 6 bottles of wine).
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.3
  * Requires PHP:      7.4
  * Author:            Ronald Smit
