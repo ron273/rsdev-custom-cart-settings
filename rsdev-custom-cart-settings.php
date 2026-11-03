@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:          Custom Cart Settings
- * Plugin URI:           https://www.rsdev.nl/rsdev-custom-cart-settings/
+ * Plugin URI:           https://github.com/ron273/rsdev-custom-cart-settings
  * Description:          Enables shop owners to force orders in multiples of X (e.g. boxes containing 6 bottles of wine).
  * Version:              1.4.0
  * Requires at least:    6.5
@@ -13,7 +13,7 @@
  * Author URI:           https://www.rsdev.nl/
  * License:              GPL v2 or later
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:           https://www.rsdev.nl/rsdev-custom-cart-settings/
+ * Update URI:           https://github.com/ron273/rsdev-custom-cart-settings
  * Text Domain:          rsdev-custom-cart-settings
  * Domain Path:          /languages
  *

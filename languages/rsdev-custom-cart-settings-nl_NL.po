@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Cart Settings 1.4.0\n"
-"Report-Msgid-Bugs-To: https://www.rsdev.nl/\n"
+"Report-Msgid-Bugs-To: https://github.com/ron273/rsdev-custom-cart-settings/issues\n"
 "POT-Creation-Date: 2026-11-03 20:00+0100\n"
 "PO-Revision-Date: 2026-11-03 20:00+0100\n"
 "Last-Translator: \n"
@@ -23,7 +23,7 @@ msgstr "Instellingen Winkelwagen"
 #. Plugin URI of the plugin
 #. Update URI of the plugin
 #: rsdev-custom-cart-settings.php
-msgid "https://www.rsdev.nl/rsdev-custom-cart-settings/"
+msgid "https://github.com/ron273/rsdev-custom-cart-settings"
 msgstr ""
 
 #. Description of the plugin
