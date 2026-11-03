@@ -99,6 +99,10 @@ languages/                                  .pot template and Dutch translation
 
 ## Changelog
 
+### 1.4.1
+- The plugin's website link (*Visit plugin site*) and update ID now point to this GitHub repository.
+- Added this README.
+
 ### 1.4.0
 - Fixed a fatal error on the cart page when no multiplier had been saved; the multiplier now defaults to 1.
 - The rule now works with the block-based Cart and Checkout, and is enforced on the server: the checkout page redirects to the cart and orders are refused while the cart is invalid.

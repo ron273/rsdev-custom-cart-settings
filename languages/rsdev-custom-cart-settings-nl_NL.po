@@ -2,7 +2,7 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Custom Cart Settings 1.4.0\n"
+"Project-Id-Version: Custom Cart Settings 1.4.1\n"
 "Report-Msgid-Bugs-To: https://github.com/ron273/rsdev-custom-cart-settings/issues\n"
 "POT-Creation-Date: 2026-11-03 20:00+0100\n"
 "PO-Revision-Date: 2026-11-03 20:00+0100\n"
