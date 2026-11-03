@@ -1,0 +1,30 @@
+/* Settings page: put the remove "×" on the right side of each category bubble. */
+#ccsp_excluded_cats + .select2-container .select2-selection__choice {
+	display: inline-flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	gap: 6px;
+}
+
+#ccsp_excluded_cats + .select2-container .select2-selection__choice__remove {
+	margin: 0;
+	font-size: 1.1em;
+	line-height: 1;
+}
+
+#ccsp_excluded_cats + .select2-container .select2-selection__choice__remove:hover {
+	color: #d63638;
+}
+
+/* Live preview of the customer message, styled like a WooCommerce error notice. */
+.rsdev-ccs-preview {
+	max-width: 40em;
+	padding: 10px 14px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #d63638;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	font-size: 14px;
+	line-height: 1.5;
+	overflow-wrap: anywhere;
+}

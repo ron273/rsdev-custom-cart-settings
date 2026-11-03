@@ -1,0 +1,11 @@
+/* Block cart: disabled "Proceed to checkout" button while the cart rule is not met. */
+.rsdev-ccs-cart-invalid .wc-block-cart__submit-button {
+	opacity: 0.5;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+/* pointer-events: none hides the cursor, so show it on the wrapper instead. */
+.rsdev-ccs-cart-invalid .wc-block-cart__submit-container {
+	cursor: not-allowed;
+}

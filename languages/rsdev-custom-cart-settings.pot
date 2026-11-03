@@ -1,55 +1,137 @@
-# Copyright (C) 2023 Ronald Smit
+# Copyright (C) 2023-2026 Ronald Smit
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Custom Cart Settings 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rsdev-custom-cart-settings\n"
+"Project-Id-Version: Custom Cart Settings 1.4.0\n"
+"Report-Msgid-Bugs-To: https://www.rsdev.nl/\n"
+"POT-Creation-Date: 2026-11-03 20:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-12-03T16:15:50+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: rsdev-custom-cart-settings\n"
 
 #. Plugin Name of the plugin
+#: rsdev-custom-cart-settings.php
 msgid "Custom Cart Settings"
 msgstr ""
 
 #. Plugin URI of the plugin
-msgid "https://example.com/plugins/the-basics/"
+#. Update URI of the plugin
+#: rsdev-custom-cart-settings.php
+msgid "https://www.rsdev.nl/rsdev-custom-cart-settings/"
 msgstr ""
 
 #. Description of the plugin
-msgid "Enables shop users to force orders in multiple of X (e.g. boxes containing 6 bottles of wine)."
+#: rsdev-custom-cart-settings.php
+msgid ""
+"Enables shop owners to force orders in multiples of X (e.g. boxes containing "
+"6 bottles of wine)."
 msgstr ""
 
 #. Author of the plugin
+#: rsdev-custom-cart-settings.php
 msgid "Ronald Smit"
 msgstr ""
 
 #. Author URI of the plugin
+#: rsdev-custom-cart-settings.php
 msgid "https://www.rsdev.nl/"
 msgstr ""
 
-#: admin.php:17
-msgid "Enable Plugin"
+#: includes/class-rsdev-ccs-admin.php:106
+msgid "Settings"
 msgstr ""
 
-#: admin.php:33
-msgid "Product Multiplier"
+#: includes/class-rsdev-ccs-cart-validator.php:129
+msgid "Proceed to checkout"
 msgstr ""
 
-#: admin.php:49
-msgid "Error Message Text"
+#: includes/class-rsdev-ccs-settings-page.php:38
+msgid "Order Quantities"
 msgstr ""
 
-#: admin.php:65
-msgid "Excluded Categories"
+#: includes/class-rsdev-ccs-settings-page.php:66
+msgid "Rule"
 msgstr ""
 
-#: rsdev-custom-cart-settings.php:40
-msgid "Proceed to Checkout"
+#: includes/class-rsdev-ccs-settings-page.php:67
+msgid ""
+"Customers can only check out when the number of counted products in their "
+"cart is a multiple of the product multiplier."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:72
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:79
+msgid "Product multiplier"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:80
+msgid ""
+"The number of counted products in the cart must be a multiple of this "
+"number. Use 1 to allow any quantity."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:91
+msgid "Excluded categories"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:92
+msgid "Products in these categories do not count towards the multiple."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:98
+msgid "Choose categories…"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:108
+msgid "Customer message"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:109
+msgid "Shown in the cart and at checkout when the cart does not meet the rule."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:114
+msgid "Error message text"
+msgstr ""
+
+#. translators: "%s" is shown literally; it is the placeholder admins type in the message.
+#: includes/class-rsdev-ccs-settings-page.php:116
+#, php-format
+msgid ""
+"Use %s to insert the multiplier value. Leave empty to use the default text."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:124
+msgid "Preview"
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:145
+msgid ""
+"The plugin is enabled, but with a product multiplier of 1 every quantity is "
+"allowed, so the rule has no effect. Set the multiplier to 2 or higher."
+msgstr ""
+
+#: includes/class-rsdev-ccs-settings-page.php:195
+msgid ""
+"The product multiplier must be a whole number of 1 or higher. The previous "
+"value has been kept."
+msgstr ""
+
+#. translators: %s: comma separated list of IDs.
+#: includes/class-rsdev-ccs-settings-page.php:227
+#, php-format
+msgid "These IDs are not product categories and have been removed: %s"
+msgstr ""
+
+#. translators: %s: the number of products the cart must be a multiple of.
+#: includes/class-rsdev-ccs-settings.php:63
+#, php-format
+msgid "You can only order in multiples of %s."
 msgstr ""
