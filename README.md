@@ -91,7 +91,24 @@ assets/
   js/cart-block.js, css/cart-block.css      Greys out the block cart's checkout button
   js/admin.js, css/admin.css                Live message preview and warning on the settings tab
 languages/                                  .pot template and Dutch translation
+tools/build-translations.py                 Rebuilds the translation files (not included in the plugin zip)
 ```
+
+**Updating translations** (needs the GNU gettext tools: `brew install gettext`):
+
+```
+python3 tools/build-translations.py
+```
+
+This updates the `.pot` template from the code and plugin header, adds new strings to each `.po` file (existing translations are kept), compiles the `.mo` files and lists the strings that still need a translation. Translate those in the `.po` file (or with Poedit) and run the script again.
+
+**Building a release zip:**
+
+```
+git archive --format=zip --prefix=rsdev-custom-cart-settings/ -o rsdev-custom-cart-settings-<version>.zip HEAD
+```
+
+Files marked `export-ignore` in `.gitattributes` (the `tools` folder, Git and editor files) are left out automatically.
 
 - **Options** (`wp_options`): `ccsp_enable_plugin` (`yes`/`no`; `1`/empty from older versions is also accepted), `ccsp_multiplier`, `ccsp_error_message`, `ccsp_excluded_cats` (comma-separated category IDs).
 - **Hooks used:** `woocommerce_store_api_cart_errors` (block cart and checkout), `woocommerce_check_cart_items` (classic cart and checkout), `template_redirect` (checkout redirect).

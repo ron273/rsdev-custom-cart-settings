@@ -1,0 +1,6 @@
+# Files that are part of the repository but not of the installable plugin.
+# "git archive" (used to build the release zip) leaves these out.
+/tools               export-ignore
+/.gitignore          export-ignore
+/.gitattributes      export-ignore
+/*.code-workspace    export-ignore
