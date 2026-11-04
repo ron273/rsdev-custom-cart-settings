@@ -78,6 +78,7 @@ class Rsdev_CCS_Settings_Page extends WC_Settings_Page {
 				'type'              => 'number',
 				'title'             => __( 'Product multiplier', 'rsdev-custom-cart-settings' ),
 				'desc'              => __( 'The number of counted products in the cart must be a multiple of this number. Use 1 to allow any quantity.', 'rsdev-custom-cart-settings' ),
+				'desc_tip'          => true,
 				'value'             => (string) Rsdev_CCS_Settings::get_multiplier(),
 				'css'               => 'width: 6em;',
 				'custom_attributes' => array(
@@ -90,6 +91,7 @@ class Rsdev_CCS_Settings_Page extends WC_Settings_Page {
 				'type'              => 'multiselect',
 				'title'             => __( 'Excluded categories', 'rsdev-custom-cart-settings' ),
 				'desc'              => __( 'Products in these categories do not count towards the multiple.', 'rsdev-custom-cart-settings' ),
+				'desc_tip'          => true,
 				'class'             => 'wc-enhanced-select',
 				'css'               => 'width: 25em; max-width: 100%;',
 				'options'           => $this->get_category_options(),
@@ -114,6 +116,7 @@ class Rsdev_CCS_Settings_Page extends WC_Settings_Page {
 				'title'       => __( 'Error message text', 'rsdev-custom-cart-settings' ),
 				/* translators: "%s" is shown literally; it is the placeholder admins type in the message. */
 				'desc'        => __( 'Use %s to insert the multiplier value. Leave empty to use the default text.', 'rsdev-custom-cart-settings' ),
+				'desc_tip'    => true,
 				'placeholder' => Rsdev_CCS_Settings::get_default_message_template(),
 				'value'       => Rsdev_CCS_Settings::get_message_template(),
 				'css'         => 'width: 100%; max-width: 40em;',

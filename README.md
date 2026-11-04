@@ -116,6 +116,9 @@ Files marked `export-ignore` in `.gitattributes` (the `tools` folder, Git and ed
 
 ## Changelog
 
+### 1.4.2
+- Field descriptions on the settings page are now help tooltips next to the field labels instead of text under the fields.
+
 ### 1.4.1
 - The plugin's website link (*Visit plugin site*) and update ID now point to this GitHub repository.
 - Added this README.

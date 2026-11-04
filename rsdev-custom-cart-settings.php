@@ -3,7 +3,7 @@
  * Plugin Name:          Custom Cart Settings
  * Plugin URI:           https://github.com/ron273/rsdev-custom-cart-settings
  * Description:          Enables shop owners to force orders in multiples of X (e.g. boxes containing 6 bottles of wine).
- * Version:              1.4.1
+ * Version:              1.4.2
  * Requires at least:    6.5
  * Requires PHP:         8.1
  * Requires Plugins:     woocommerce
@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'RSDEV_CCS_VERSION', '1.4.1' );
+define( 'RSDEV_CCS_VERSION', '1.4.2' );
 define( 'RSDEV_CCS_FILE', __FILE__ );
 define( 'RSDEV_CCS_DIR', __DIR__ );
 

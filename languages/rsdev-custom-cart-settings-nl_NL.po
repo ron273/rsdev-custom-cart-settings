@@ -2,9 +2,10 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Custom Cart Settings 1.4.1\n"
-"Report-Msgid-Bugs-To: https://github.com/ron273/rsdev-custom-cart-settings/issues\n"
-"POT-Creation-Date: 2026-11-03 20:00+0100\n"
+"Project-Id-Version: Custom Cart Settings 1.4.2\n"
+"Report-Msgid-Bugs-To: https://github.com/ron273/rsdev-custom-cart-settings/"
+"issues\n"
+"POT-Creation-Date: 2026-11-04 16:21+0000\n"
 "PO-Revision-Date: 2026-11-03 20:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -31,7 +32,9 @@ msgstr ""
 msgid ""
 "Enables shop owners to force orders in multiples of X (e.g. boxes containing "
 "6 bottles of wine)."
-msgstr "Hiermee kunnen winkeleigenaren bestellingen afdwingen in veelvouden van X (bijv. dozen met 6 flessen wijn)."
+msgstr ""
+"Hiermee kunnen winkeleigenaren bestellingen afdwingen in veelvouden van X "
+"(bijv. dozen met 6 flessen wijn)."
 
 #. Author of the plugin
 #: rsdev-custom-cart-settings.php
@@ -63,7 +66,9 @@ msgstr "Regel"
 msgid ""
 "Customers can only check out when the number of counted products in their "
 "cart is a multiple of the product multiplier."
-msgstr "Klanten kunnen alleen afrekenen als het aantal getelde producten in hun winkelwagen een veelvoud is van het ingestelde veelvoud."
+msgstr ""
+"Klanten kunnen alleen afrekenen als het aantal getelde producten in hun "
+"winkelwagen een veelvoud is van het ingestelde veelvoud."
 
 #: includes/class-rsdev-ccs-settings-page.php:72
 msgid "Enable plugin"
@@ -77,57 +82,67 @@ msgstr "Veelvoud"
 msgid ""
 "The number of counted products in the cart must be a multiple of this "
 "number. Use 1 to allow any quantity."
-msgstr "Het aantal getelde producten in de winkelwagen moet een veelvoud van dit getal zijn. Gebruik 1 om elk aantal toe te staan."
+msgstr ""
+"Het aantal getelde producten in de winkelwagen moet een veelvoud van dit "
+"getal zijn. Gebruik 1 om elk aantal toe te staan."
 
-#: includes/class-rsdev-ccs-settings-page.php:91
+#: includes/class-rsdev-ccs-settings-page.php:92
 msgid "Excluded categories"
 msgstr "Uitgezonderde categorieën"
 
-#: includes/class-rsdev-ccs-settings-page.php:92
+#: includes/class-rsdev-ccs-settings-page.php:93
 msgid "Products in these categories do not count towards the multiple."
 msgstr "Producten in deze categorieën tellen niet mee voor het veelvoud."
 
-#: includes/class-rsdev-ccs-settings-page.php:98
+#: includes/class-rsdev-ccs-settings-page.php:100
 msgid "Choose categories…"
 msgstr "Kies categorieën…"
 
-#: includes/class-rsdev-ccs-settings-page.php:108
+#: includes/class-rsdev-ccs-settings-page.php:110
 msgid "Customer message"
 msgstr "Melding voor klanten"
 
-#: includes/class-rsdev-ccs-settings-page.php:109
+#: includes/class-rsdev-ccs-settings-page.php:111
 msgid "Shown in the cart and at checkout when the cart does not meet the rule."
-msgstr "Wordt getoond in de winkelwagen en bij het afrekenen als de winkelwagen niet aan de regel voldoet."
+msgstr ""
+"Wordt getoond in de winkelwagen en bij het afrekenen als de winkelwagen niet "
+"aan de regel voldoet."
 
-#: includes/class-rsdev-ccs-settings-page.php:114
+#: includes/class-rsdev-ccs-settings-page.php:116
 msgid "Error message text"
 msgstr "Tekst melding"
 
 #. translators: "%s" is shown literally; it is the placeholder admins type in the message.
-#: includes/class-rsdev-ccs-settings-page.php:116
+#: includes/class-rsdev-ccs-settings-page.php:118
 #, php-format
 msgid ""
 "Use %s to insert the multiplier value. Leave empty to use the default text."
-msgstr "Gebruik %s om het veelvoud in te voegen. Laat leeg om de standaardtekst te gebruiken."
+msgstr ""
+"Gebruik %s om het veelvoud in te voegen. Laat leeg om de standaardtekst te "
+"gebruiken."
 
-#: includes/class-rsdev-ccs-settings-page.php:124
+#: includes/class-rsdev-ccs-settings-page.php:127
 msgid "Preview"
 msgstr "Voorbeeld"
 
-#: includes/class-rsdev-ccs-settings-page.php:145
+#: includes/class-rsdev-ccs-settings-page.php:148
 msgid ""
 "The plugin is enabled, but with a product multiplier of 1 every quantity is "
 "allowed, so the rule has no effect. Set the multiplier to 2 or higher."
-msgstr "De plugin is actief, maar met een veelvoud van 1 is elk aantal toegestaan, dus de regel heeft geen effect. Stel het veelvoud in op 2 of hoger."
+msgstr ""
+"De plugin is actief, maar met een veelvoud van 1 is elk aantal toegestaan, "
+"dus de regel heeft geen effect. Stel het veelvoud in op 2 of hoger."
 
-#: includes/class-rsdev-ccs-settings-page.php:195
+#: includes/class-rsdev-ccs-settings-page.php:198
 msgid ""
 "The product multiplier must be a whole number of 1 or higher. The previous "
 "value has been kept."
-msgstr "Het veelvoud moet een geheel getal van 1 of hoger zijn. De vorige waarde is behouden."
+msgstr ""
+"Het veelvoud moet een geheel getal van 1 of hoger zijn. De vorige waarde is "
+"behouden."
 
 #. translators: %s: comma separated list of IDs.
-#: includes/class-rsdev-ccs-settings-page.php:227
+#: includes/class-rsdev-ccs-settings-page.php:230
 #, php-format
 msgid "These IDs are not product categories and have been removed: %s"
 msgstr "Deze ID's zijn geen productcategorieën en zijn verwijderd: %s"
